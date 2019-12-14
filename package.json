@@ -4,7 +4,7 @@
   "description": "Mastodon bot that posts in progress images of creative coding sketches.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "post": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Violet Graham",
