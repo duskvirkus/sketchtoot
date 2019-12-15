@@ -11,7 +11,14 @@ Creative coding sketchbook which makes it easy to posts progress images to [Mast
 
 1. Clone this repository. `git clone https://github.com/violetcraze/sketchtoot.git`
 2. Run `npm install`. If you don't have npm on your machine find instructions on how to install it [on the node.js website](https://nodejs.org/en/download/).
-3. Create a .env file with your mastodon credentials
+4. Create a Mastodon account and be sure to check the box on the `Settings>Profile` page that says `This is a bot account`. In `Settings>Development` add an application.
+3. Create a .env file with your mastodon credentials. You will find the token, secret, and key on the application you just added under `Settings>Development`. Example file:
+```
+ACCESS_TOKEN=
+CLIENT_SECRET=
+CLIENT_KEY=
+API_DOMAIN=https://botsin.space/api/v1/
+```
 
 ### Processing
 
