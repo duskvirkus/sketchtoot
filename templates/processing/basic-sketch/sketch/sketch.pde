@@ -1,7 +1,7 @@
 
 void settings() {
   sketchtootSettings();
-  size(400, 400);
+  size(1000, 520);
 }
 
 void setup() {
